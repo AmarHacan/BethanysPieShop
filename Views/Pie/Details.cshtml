@@ -1,0 +1,19 @@
+﻿@model Pie
+
+<h3 class="my-5">@Model.Name</h3>
+
+<div class="row gx-10">
+    <img class="img-fluid col-4 mx-10 px-20" src="@Model.ImageUrl" alt="@Model.Name"/>
+    
+    <div class="col-8">
+        <h3>@Model.Name</h3>
+        <p>@Model.LongDescription</p>
+        <div class="addToCart">
+            <p class="Button">
+                <a class="btn btn-secondary" asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-pieId="@Model.PieId">Add To Cart </a>
+            </p>
+        </div>
+        
+
+    </div>
+</div>

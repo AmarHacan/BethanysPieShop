@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>e380271e-ceae-4df7-942f-35d38294e7da</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.22" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.22" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.22" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.22">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\user\Desktop\AusSource Enterprises\Web-Api-Fundamentals\BethanysPieShop\BethanysPieShop\Repositories\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\user\Desktop\AusSource Enterprises\Web-Api-Fundamentals\BethanysPieShop\BethanysPieShop\Repositories\.editorconfig" />
+    <None Include="Pages\App\AppLayout.razor" />
+    <None Include="Pages\App\AppRouter.razor" />
+    <None Include="Pages\App\Index.cshtml" />
+    <None Include="Pages\App\PieCard.razor" />
+    <None Include="Pages\App\SearchBlazor.razor" />
+    <None Include="Pages\App\_Imports.razor" />
+  </ItemGroup>
+
+</Project>
